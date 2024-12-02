@@ -36,7 +36,7 @@
 
 */
 
-#include    <streamer.inc>                          // Version: 2.9.6 | Download: https://github.com/samp-incognito/samp-streamer-plugin/releases
+#include    <streamer>                          // Version: 2.9.6 | Download: https://github.com/samp-incognito/samp-streamer-plugin/releases
 
 
 #define     CLICK_SOURCE_SKIN       (2)
