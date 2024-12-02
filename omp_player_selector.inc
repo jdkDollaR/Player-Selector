@@ -40,14 +40,13 @@
 
 
 #define     CLICK_SOURCE_SKIN       (CLICK_SOURCE:2)
-#define     CLICK_OBJECT_MODEL      (18963)
 
 static enum PLAYER_CLICK_STRUCT {
     STREAMER_TAG_OBJECT:Click_Object_ID,
     bool:Click_Active
 }
 static PlayerClick_Data[MAX_PLAYERS][PLAYER_CLICK_STRUCT];
-
+static const CLICK_OBJECT_MODEL = 18963;
 
 /*
  ___      _    _ _       
